@@ -15,3 +15,12 @@
  body {
  	padding-top: 50px;
  }
+
+ /* form-conrol override for checkboxes */
+
+#inline-checkbox {
+ 	height: auto;
+ 	width: auto;
+ 	box-shadow: none;
+ }
+

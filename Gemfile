@@ -6,8 +6,9 @@ gem 'rails', '4.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
-# Use devise for login
 gem 'devise', github: 'plataformatec/devise'
+gem 'protected_attributes'
+gem 'simple_form', github: 'zlx/simple_form_bootstrap3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
