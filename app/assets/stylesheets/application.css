@@ -16,6 +16,10 @@
  	padding-top: 50px;
  }
 
+ .alert {
+ 	margin-top: 10px;
+ }
+
  /* form-conrol override for checkboxes */
 
 #inline-checkbox {
