@@ -42,6 +42,13 @@ test "a user should have a unique profile name without spaces" do
 	assert user.errors[:profile_name].include?("Must be formatted correctly.")
 end		
 
+test "a user can have a correctly formatted profile name" do
+	user = User.new(first_name: 'Adam', last_name: 'Hetherington', 
+		email: 'user@gmail.com')
+	user.password = user.password_confirmation = '1576thave!'
+	user.profile_name = 'username'
+	assert user.valid?
+end
 
 
 
