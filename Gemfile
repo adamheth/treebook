@@ -7,9 +7,8 @@ gem 'devise', github: 'plataformatec/devise'
 gem 'protected_attributes'
 gem 'simple_form', github: 'zlx/simple_form_bootstrap3'
 
-# Use sqlite3 as the database for development only
- group :development, :test do
-	gem 'sqlite3'
+group :development, :test do
+	gem 'sqlite3', :require => 'sqlite3'
 end
 
 # Use SCSS for stylesheets
