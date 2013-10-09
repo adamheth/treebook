@@ -8,7 +8,10 @@ gem 'protected_attributes'
 gem 'simple_form', github: 'zlx/simple_form_bootstrap3'
 
 group :development, :test do
-	gem 'sqlite3', :require => 'sqlite3'
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
 end
 
 # Use SCSS for stylesheets
